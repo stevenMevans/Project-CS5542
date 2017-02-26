@@ -29,7 +29,7 @@ static List<Long> timeStamp = new ArrayList <Long>();
 static List<Double> mainPoints = new ArrayList<Double>();
 
 public void Frames () {
-    String path = "input\\basketball.mkv";
+    String path = "input\\tennis.mkv";
     video = new XuggleVideo(new File(path));
     int i = 0;
     for (MBFImage mbfImage : video) {
