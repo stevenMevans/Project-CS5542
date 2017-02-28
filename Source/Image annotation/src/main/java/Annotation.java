@@ -44,7 +44,7 @@ public class Annotation {
 
                 if(data.get(j).name().equals("soccer")||data.get(j).name().equals("tennis") || data.get(j).name().equals("basketball")
                         || data.get(j).name().equals("volleyball")|| data.get(j).name().equals("swimming")|| data.get(j).name().equals("football")
-                        || data.get(j).name().equals("boks")|| data.get(j).name().equals("badminton") || data.get(j).name().equals("cricket"))
+                        || data.get(j).name().equals("boxing")|| data.get(j).name().equals("badminton") || data.get(j).name().equals("cricket"))
                 {
                     System.out.println("This game is "+ data.get(j).name());
                     //image.drawText("This is "+data.get(j).name(), (int)Math.floor(Math.random()*x), (int) Math.floor(Math.random()*y), HersheyFont.ASTROLOGY, 20, RGBColour.RED);
